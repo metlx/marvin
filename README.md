@@ -2,10 +2,12 @@
 mars rover explorer
 
 
-Designed with hyperminimalism in mind, this application lets you explore all of nasa's rovers.
-You can search by sol, camara, page, and rover.
+Designed with hyperminimalism in mind.
+
+This application lets you explore all of nasa's rovers.
+
+I can query by rover, camara, sol, and page.
 
 Includes support for nasa's brand new rover Perseverance!
-
 
 All images are fullscreen!
