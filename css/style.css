@@ -1,0 +1,39 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+#camara_{
+    color: limegreen;
+}
+#page_{
+    color: limegreen;
+}
+
+#sol_{
+    color: limegreen;
+}
+#rover_{
+    color: limegreen;
+}
+
+body{
+    background: ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
