@@ -2,7 +2,8 @@ document.querySelector('button').addEventListener('click', async function(){
   try{
     let rover = document.getElementById('rover').value.toLowerCase()
     let key = 'ZSGy6GOpsivN5JgHCefi0TFbp61x18bjpR0hkTHU'
-    let res = await fetch(`https://api.nasa.gov/mars-photos/api/v1/rovers?api_key=${key}`)
+    let url = `https://api.nasa.gov/mars-photos/api/v1/rovers?api_key=${key}`
+    let res = await fetch(url)
     let data = await res.json()
     for (let i = 0; i < data.rovers.length; i++){
       if(data.rovers[i].name == rover[0].toUpperCase() + rover.slice(1)){
